@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "weblangchain"
+version = "0.1.0"
+description = ""
+authors = ["SN <6432132+samnoyes@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^0.28.0"
+fastapi = "^0.103.1"
+pydantic = "1.10"
+langchain = "^0.0.324"
+uvicorn = "^0.23.2"
+tiktoken = "^0.4.0"
+tavily-python = "^0.1.9"
+langserve = "0.0.19"
+sse-starlette = "^1.6.5"
+google-api-python-client = "^2.102.0"
+html2text = "^2020.1.16"
+anthropic = "^0.4.1"
+kay = "^0.1.2"
+google-cloud-aiplatform = "^1.35.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
