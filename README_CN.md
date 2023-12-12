@@ -1,5 +1,7 @@
 # 🦜️🌐 WebLangChain-ChatGLM3
 
+## <div align="center"><b><a href="README.md">English</a> | <a href="README_CN.md">简体中文</a></b></div>
+
 本代码库基于 LangChain 构建，支持OpenAI ChatGPT、ChatGLM3 等模型调用，同时通过 Tavily 等检索库实现检索增强生成（Retrieval Augmented Generation，RAG）功能，能够使用整个互联网作为文档存储库执行检索来缓解大语言模型的幻觉问题
 
 ## 😀 使用样例展示

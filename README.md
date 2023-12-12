@@ -1,14 +1,16 @@
 # 🦜️🌐 WebLangChain-ChatGLM3
 
+## <div align="center"><b><a href="README.md">English</a> | <a href="README_CN.md">简体中文</a></b></div>
+
 This code repository is built on LangChain and supports the invocation of models such as OpenAI ChatGPT and ChatGLM3. It also implements Retrieval Augmented Generation (RAG) functionality through retrieval libraries like Tavily, enabling the use of the entire internet as a document repository for retrieval to alleviate issues related to the hallucination problem in large language models.
 
 ## 😀 Demo
-- image demo
+- Image Demo
 ![website](./assets/image.png)
 ![demo1-1](./assets/demo1_1.png)
 ![demo1-2](./assets/demo1_2.png)
 
-- gif demo
+- GIF Demo
 ![demogif](./assets/demo.gif)
 ![demogif2](./assets/demo2.gif)
 
